@@ -139,3 +139,70 @@ p.outset{
 p.hidden{
     border-style: hidden;
 }
+.overflow1{
+    width: 200px;
+    height: 50px;
+    border: 1px solid #ddd;
+    overflow: auto;
+}
+.float1{
+    float: left;
+}
+.padding1{
+    margin-top:30px;
+    clear: both;
+    padding: 0px;
+    border: 2px solid black;
+}
+.padding2{
+    clear: both;
+    padding: 25px;
+    border: 2px solid black;
+}
+.div2{
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+}
+.mauto
+{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+div p{
+    border:3px solid green;
+}
+div>p{
+    background-color: burlywood;
+}
+div+p{
+    font-weight: bold;
+    border: 1px dashed green;
+}
+.div3~p{
+    background-color: lemonchiffon;
+}
+a.Pseudo:link{
+color: black;
+text-decoration: none;
+}
+a.Pseudo:visited{
+    color:black;
+    text-decoration: none;
+}
+a.Pseudo:hover{
+    color:green;
+    text-decoration: underline;
+}
+.first:first-child{
+    background-color: green;
+    border: 1px solid green;
+}
+.div4>p.p3:first-child{
+    background-color: greenyellow;
+    border:1px solid yellow;
+}
+p:first-child i{
+    color:blue;
+}
