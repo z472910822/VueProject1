@@ -1,0 +1,13 @@
+.a1{
+    text-decoration: none;/*取消链接下划线*/
+}
+#MyCanvas{
+    border: 1px solid #000000;
+    
+}
+MyHero{
+    display: block;
+    background-color: #ddd;
+    padding: 50px;
+    font-size: 30px;
+}
