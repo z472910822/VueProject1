@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="js/0711.js"></script>
+    <title>JavaScript学习</title>
+</head>
+<body>
+    <h3>JavaScript显示时间</h3>
+    <p id="pTime">当前时间:</p>
+    <button id="btn1" onclick="displayDate()">显示时间</button>
+<hr>
+<h3>JS直接写入HTML输出流</h3>
+<script>
+    document.write("<p>this is a paragraph</p>")
+    document.write("<p>this is a paragraph</p>")
+</script>
+<hr>
+<h3>JS Alert</h3>
+<button onclick="alert1()">按钮2</button>
+<hr>
+<h3>JS切换图片</h3>
+<img src="images/gif1.gif" loading="lazy" id="img1" alt="">
+<button onclick="changeIamge()">切换图片</button>
+<hr>
+<h3>JS改变HTML样式</h3>
+<p id="p1">this is a paragraph</p>
+<button id="btn2" onclick="ChangeP1Color()">改变p1样式</button>
+<hr>
+<h3>JS验证输入</h3>
+<input type="text" id="ipt1">
+<button id="btn3" onclick="IsNumber()">验证输入</button>
+<hr>
+<h3>外部js文件测试</h3>
+<button id="btn4" onclick="alert2()">外部Js测试</button>
+</body>
+<script type="text/javascript">
+var ImgCount=0;
+        function displayDate(){
+        document.getElementById("pTime").innerHTML="当前时间:"+Date();
+   }
+   function alert1(){
+                alert("hello,javaScript!");
+            }
+function changeIamge(){
+    var element=document.getElementById('img1');
+    if(ImgCount==0){
+        element.src="images/jpg1.jpeg";
+        ImgCount=1;
+    }else{
+        element.src="images/gif1.gif";
+        ImgCount=0;
+    
+    }
+ 
+}
+function ChangeP1Color(){
+    var p1=document.getElementById("p1");
+        p1.style.color="#ff0000";
+    }
+    function IsNumber(){
+        var Ipt1Value=document.getElementById("ipt1").value;
+        if(Ipt1Value!=""){
+        if(isNaN(Ipt1Value)){
+            alert("输入不是纯数字!");
+        }else{
+            alert("输入是纯数字!");
+        }
+    }else{
+     alert("输入不能为空!"); 
+    }
+    }
+</script>
+</html>
