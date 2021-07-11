@@ -1,0 +1,208 @@
+p.center{
+    text-align: center;
+
+}
+#p1{
+    color:red;
+}
+#p2{
+    color:#ffff00;
+}
+#p3{
+    color: rgb(0, 255, 255);
+}
+p.date{
+    text-align: right;
+}
+p.main{
+    text-align: justify;
+}
+p.d1{
+    text-decoration: overline;
+}
+p.d2{
+    text-decoration: line-through;
+}
+p.d3{
+    text-decoration: underline;
+}
+p.uppercase{
+    text-transform: uppercase;
+}
+p.lowercase{
+    text-transform: lowercase;
+}
+p.capitalize{
+    text-transform: capitalize;
+}
+.indent1{
+    text-indent: 10px;
+}
+.indent2{
+    text-indent: 10;
+}
+.indent3{
+    text-indent: 20px;
+}
+.lp1{
+    letter-spacing: 10px;
+}
+#a1:link{
+    color:#000000;
+    text-decoration: none;
+}
+#a1:hover{
+    color:yellow;
+    text-decoration: underline;
+}
+#a1:visited{
+    color:#000000;
+}
+#a1:active{
+    color:seagreen;
+}
+#a2{
+    display: block;
+    font-weight: bold;
+    color:#ffffff;
+    background-color: #ddd;
+    width: 120px;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+}
+ul.UlFood{
+    list-style: circle;
+}
+ul.cities{
+    list-style: square;
+}
+ol.name{
+    list-style: upper-roman;
+}
+ol.cars{
+    list-style: lower-alpha;
+}
+ul.Game{
+    list-style:georgian;
+}
+table,th,td{
+    border: 1px solid green;
+ 
+}
+th{
+    color:#000000;
+    background-color: #EAF2D3;
+}
+table{
+    border-collapse: collapse;
+}
+tr.alt td{
+    background-color: #EAF2D3;
+}
+.div1{
+    width:300px;
+    height:300px;
+    border:3px solid green;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    /*300+3+20=323px*/
+}
+p.none{
+    border-style: none;
+}
+p.dotted{
+    border-style: dotted;
+}
+p.dashed{
+    border-style: dashed;
+}
+p.solid{
+    border-style: solid;
+}
+p.double{
+    border-style: double;
+}
+p.groove{
+    border-style: groove;
+}
+p.ridge{
+    border-style: ridge;
+}
+p.inset{
+    border-style: inset;
+}
+p.outset{
+    border-style: outset;
+}
+p.hidden{
+    border-style: hidden;
+}
+.overflow1{
+    width: 200px;
+    height: 50px;
+    border: 1px solid #ddd;
+    overflow: auto;
+}
+.float1{
+    float: left;
+}
+.padding1{
+    margin-top:30px;
+    clear: both;
+    padding: 0px;
+    border: 2px solid black;
+}
+.padding2{
+    clear: both;
+    padding: 25px;
+    border: 2px solid black;
+}
+.div2{
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+}
+.mauto
+{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+div p{
+    border:3px solid green;
+}
+div>p{
+    background-color: burlywood;
+}
+div+p{
+    font-weight: bold;
+    border: 1px dashed green;
+}
+.div3~p{
+    background-color: lemonchiffon;
+}
+a.Pseudo:link{
+color: black;
+text-decoration: none;
+}
+a.Pseudo:visited{
+    color:black;
+    text-decoration: none;
+}
+a.Pseudo:hover{
+    color:green;
+    text-decoration: underline;
+}
+.first:first-child{
+    background-color: green;
+    border: 1px solid green;
+}
+.div4>p.p3:first-child{
+    background-color: greenyellow;
+    border:1px solid yellow;
+}
+p:first-child i{
+    color:blue;
+}
