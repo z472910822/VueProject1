@@ -22,7 +22,6 @@
     <hr>
     <h3>垂直导航条实例</h3>
     <ul class="ul1">
-        <!-- 需要给父级加个overflow:hidden属性，这样父级的高度就随子级容器及子级内容的高度而自适应。如下：-->
         <li><a href="#" class="active">主页</a></li>
         <li><a href="#">新闻</a></li>
         <li><a href="#">联系</a></li>
@@ -36,5 +35,67 @@
         <li><a href="#">联系</a></li>
         <li><a href="#">关于</a></li>
     </ul>
+    <hr>
+    <h3>下拉菜单实例</h3>
+    <div class="dropdown">
+        <button class="dropbtn">下拉菜单</button>
+            <div class="dropdown-content">
+                <a href="#">菜单项1</a>
+                <a href="#">菜单项2</a>
+                <a href="#">菜单项3</a>
+        </div>
+    </div>
+    <hr>
+    <h3>CSS提示工具(ToolTip)</h3>
+    <div class="tooltip">
+        ToolTip测试
+        <span class="tooltiptext">tooltiptext</span>
+    </div>
+    <hr>
+    <h3>CSS响应式表单</h3>
+    <div class="container">
+        <form action="/submit1">
+        <div class="row">
+            <div class="col-25">
+                <label for="fname">First Name</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="fname" name="FirstName" placeholder="Your name ....">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="lname">Last Name</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="lname" name="LastName" placeholder="Your name ....">
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-25">
+                <label for="country">Country</label>
+            </div>
+            <div class="col-75">
+                <select name="country" id="country">
+                    <option value="china">china</option>
+                    <option value="france">france</option>
+                    <option value="America">America</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="subject">Subject</label>
+            </div>
+            <div class="col-75">
+                <textarea name="subject" id="subject" placeholder="Write something "></textarea>
+            </div>
+        </div>
+        <div class="row">
+            <input type="submit" value="submit" id="">
+        </div>
+        </form>
+    </div>
 </body>
 </html>
